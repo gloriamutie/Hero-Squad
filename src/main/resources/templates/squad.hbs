@@ -1,8 +1,7 @@
 {{#partial "content"}}
     <section class="landing-pg">
-        <div class="land-left">
-        </div>
-        <div class="land-right">
+
+        <div class="land">
         </div>
 
         <div class="squad">
@@ -11,7 +10,7 @@
                 <h2>Choose Squad Members</h2>
             {{#each heroes}}
                  <div class="hero-item">
-                  <img src="/img/herosquad.jpg" alt="">
+                  <img src="/img/green-lantern.jpg" alt="">
                   <div class="hero-detail">
                     <p>Name: {{name}}</p>
                     <p>Super power: {{ power }}</p>
@@ -51,7 +50,7 @@
             </div>
         {{/each}}
         {{else}}
-            <h2>Please create a squad to continue</h2>
+            <h2> Create Squad </h2>
         {{/if}}
         </div>
 
