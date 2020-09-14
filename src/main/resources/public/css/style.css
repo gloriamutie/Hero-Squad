@@ -72,7 +72,7 @@ nav{
   top: 23px;
   right: 10%;
   font-family: 'Abel', sans-serif;
-  background: rgb(8, 22, 8);
+  background: rgb(0, 0, 0);
 }
 nav>ul li{
   display: inline-block;
@@ -108,13 +108,16 @@ nav>ul li{
   top: 0vh;
   width: 50%;
   height: 100vh;
-  background: rgb(8, 22, 8);
+ background: url('/img/green-lantern.jpg');
+ background-repeat: no-repeat;
   z-index: 2;
 }
 .land-left{
   left: 0px;
-  background: rgb(0, 0, 0);
-}
+  background: url('/img/green-lantern.jpg');
+   background-repeat: no-repeat;
+
+}/*
 .hero-img{
   position: relative;
   z-index: 10;
@@ -124,17 +127,18 @@ nav>ul li{
   height: 70vh;
   overflow: hidden;
   /*background: url('/img/captain.jpg');*/
-  background-position: top center;
+ /* background-position: top center;
   box-shadow: 0 0 20px rgb(24, 44, 13);
   animation: load1 0.8s linear 1;
 }
+*/
 .hero-desc{
-  width: 40%;
-  height: 60vh;
-  margin-top: 10vh;
+  width: 60%;
+  height: 80vh;
+  margin-top: 5vh;
   margin-left: -100px;
   position: relative;
-  z-index: 10;
+  z-index: 15;
   left: 0px;
   color: white;
   padding-top: 20px;
@@ -142,6 +146,7 @@ nav>ul li{
   text-align: center;
   animation: load 1s linear 1;
   background: url('/img/captain.jpg');
+  background-repeat: no-repeat;
 }
 .hero-desc>h3{
   font-size: 3.4em;
