@@ -123,7 +123,7 @@ nav>ul li{
   margin-top: 5vh;
   height: 70vh;
   overflow: hidden;
-  background: url('/img/captain.jpg');
+  /*background: url('/img/captain.jpg');*/
   background-position: top center;
   box-shadow: 0 0 20px rgb(24, 44, 13);
   animation: load1 0.8s linear 1;
@@ -141,6 +141,7 @@ nav>ul li{
   background: rgba(0, 0, 0, 0.527);
   text-align: center;
   animation: load 1s linear 1;
+  background: url('/img/captain.jpg');
 }
 .hero-desc>h3{
   font-size: 3.4em;
