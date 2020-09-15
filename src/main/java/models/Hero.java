@@ -34,17 +34,13 @@ public class Hero {
     public int getId(){return id;}
     public static Hero findById(int id) {return instances.get(id-1);}
 
-     public static Hero setUpNewHero(){
-        return new Hero("Captain Marvel",23,"Her 'Binary form","Energy Fatigue And Depletion");
+    public static Hero setUpNewHero(){
+        return new Hero("Green-Lantern",70,"Strong will","color yellow");
     }
-
     public static Hero setUpNewHero1(){
-        return new Hero("Arrow",35,"Archery","Decision making");
+        return new Hero("Arrow",35,"Archery","Trust");
     }
 
-    public static Hero setUpNewHero2(){
-        return new Hero("Flash",300,"SpeedForce","glass cannon");
-    }
 
 
 }
